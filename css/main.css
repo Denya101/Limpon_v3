@@ -263,13 +263,165 @@ input:focus {
     letter-spacing: 0.025em;
     line-height: 1.7em;
     margin-bottom: 34px;
+    color: #fff;
+}
+
+
+/******************* FACTS *******************/
+
+
+.block-facts {
+    height: 532px;
+    background-image: url(../img/facts_bg.png);
+}
+.facts-title {
+    width: 435px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    margin: 0 auto;
+    padding-top: 117px;
+    letter-spacing: -0.02em;
+}
+.facts-title span {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    margin-bottom: 16px;
+}
+.box-facts {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1085e4;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+}
+.facts-item {
+    letter-spacing: 0.2em;
+}
+.facts-item span {
+    display: block;
+    font-size: 60px;
+    color: #bacbdc;
+    padding-bottom: 18px;
+    letter-spacing: 0;
+}
+
+
+/******************* PREVIEW *******************/
+
+.block-preview {
+    height: 765px;
+    background-color: #edf6ff;
+}
+.preview-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding-top: 100px;
+    text-align: center;
+    letter-spacing: -0.05em;
+}
+.preview-title span {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: #1085e4;
+    letter-spacing: 0.2em;
+    margin-bottom: 5px;
+}
+.preview-img {
+    margin-left: -95px;
 }
 
 
 
-
-
-
+/******************* TEAM *******************/
+.block-team {
+    height: 845px;
+    background-image: url(/img/team_bg.png);
+    /* background-color: rgb(78, 43, 43); */
+    text-align: center;
+}
+.team-title {
+    font-size: 40px;
+    letter-spacing: -0.045em;
+    padding-top: 116px;
+    padding-bottom: 106px;
+}
+.team-title span {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+.team-box {
+    display: flex;
+    justify-content: space-around;
+}
+.team-item {
+    background-color: #f3f3f3;
+    color: #a1aecf;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+}
+.team-item-open {
+    font-size: 14px;
+    color: #9ea6b1;
+}
+.team-item-active .fa-facebook-f {
+    color: #fff;
+}
+.team-item-active {
+    background-color: #1a88e1;
+}
+.team-post {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    color: #1a88e1;
+    text-transform: uppercase;
+}
+.team-userName {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 21px;
+    color: #192b59;
+    letter-spacing: -0.045em;
+}
+.team-userLogo {
+    margin-bottom: 10px;
+}
+.team-card {
+    position: absolute;
+    bottom: 41px;
+    left: calc( (350px - 288px)/2 );
+}
+.team-card-bg {
+    width: 350px;
+    height: 383px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 15px 15px -5px #f8f8f8;
+    position: relative;
+}
 
 
 
