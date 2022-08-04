@@ -357,6 +357,7 @@ input:focus {
     letter-spacing: -0.045em;
     padding-top: 116px;
     padding-bottom: 106px;
+    color: #fff;
 }
 .team-title span {
     display: block;
