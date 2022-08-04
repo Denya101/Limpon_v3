@@ -3,7 +3,9 @@
 	src: url(/font/Myriad_Pro_Regular.OTF); 
 }
 body {
-    width: 1920px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
@@ -567,6 +569,131 @@ input:focus {
 .app-info {
     margin-right: 120px;
 }
+
+
+
+/******************* SOFTWARE *******************/
+
+
+
+.software-wrap {
+    height: 1002px;
+    background-image: url(/img/software_bg.jpg);
+}
+.software-box {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 118px;
+}
+.software-info {
+    max-width: 610px;
+    margin-left: -27px;
+}
+.software-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    margin-bottom: 31px;
+    max-width: 590px;
+    margin-top: 0;
+}
+dl {
+    max-width: 550px;
+    border-right: 4px solid transparent;
+    border-image: linear-gradient(to bottom, #1085e4 10%, #f3f6ff 0%);
+    border-image-slice: 1;
+    padding-right: 53px;
+}
+
+dt {
+    font-size: 16px;
+    font-weight: 700;
+    color: #5a6789;
+    margin-bottom: 15px;
+}
+dd {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7581a1;
+    margin: 0;
+    line-height: 1.7em;
+    margin-bottom: 27px;
+}
+hr {
+    width: 510px;
+    margin-left: 0;
+    margin-bottom: 27px;
+    border: none;
+    height: 2px;
+    background-color: #f2f2f2;
+}
+.software-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7581a1;
+    line-height: 1.5em;
+    margin-bottom: 37px;
+}
+.software-icon {
+    margin-bottom: 29px;
+}
+
+
+
+
+
+/******************* ANALYTICS *******************/
+
+
+
+.block-analytics-primary {
+    height: 690px;
+    background-image: url(/img/analytics_1_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.block-analytics-secondary {
+    height: 690px;
+    background-image: url(/img/analytics_2_bg.jpg);
+    display: flex;
+    align-items: center;
+}
+.analytics-box {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 74px;
+}
+.analytics-info {
+    max-width: 607px;
+}
+.analytics-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    margin-top: 30px;
+    margin-bottom: 0;
+    letter-spacing: -0.03em;
+}
+.analytics-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7581a1;
+    margin-top: 33px;
+    margin-bottom: 58px;
+    line-height: 1.5em;
+}
+.analytics-info .btn-blue {
+    letter-spacing: 0.2em;
+    padding: 20px 41px;
+}
+.analytics-info .btn-blue-sec {
+    letter-spacing: 0.2em;
+    padding: 21px 62px;
+}
+
 
 
 
