@@ -365,6 +365,7 @@ input:focus {
     font-weight: 800;
     letter-spacing: 0.2em;
     margin-bottom: 20px;
+    color: #85c8ff;
 }
 .team-box {
     display: flex;
@@ -427,15 +428,145 @@ input:focus {
 
 
 
+/******************* CILENTS HAPPY *******************/
+
+
+.block-clients {
+    background-image: url(/img/clients_bg.png);
+    height: 519px;
+}
+.clients-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: none;
+    letter-spacing: -0.03em;
+    margin-bottom: 63px;
+    margin-top: 0;
+    padding-top: 196px;
+}
+.clients-title span {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: #85c8ff;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+.box-clients {
+    display: flex;
+    gap: 29px;
+}
+.clients-info {
+    display: flex;
+    margin-left: 38px;
+    margin-top: 27px;
+}
+.clients-post span {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000958;
+    text-transform: none;
+    letter-spacing: -0.025em;
+}
+.clients-post {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1085e4;
+    margin: 0 0 0 18px;
+    line-height: 1.8em;
+    letter-spacing: 0.21em;
+}
+.clients-card {
+    width: 350px;
+    height: 223px;
+    background-color: #fff;
+    box-shadow: 0px 15px 15px -5px #f8f8f8;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.clients-card-text {
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 250px;
+    color: #8085b1;
+    margin-left: 38px;
+    line-height: 24px;
+    margin: 35px 0 0 38px;
+}
 
 
 
 
+/******************* APP *******************/
 
 
 
-
-
+.block-app {
+    background-image: url(/img/app_bg.jpg);
+    height: 622px;
+}
+.app-box {
+    display: flex;
+    padding-top: 73px;
+}
+.app-subTitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #c4d2dd;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 28px;
+    margin-top: 0;
+}
+.google-play {
+    height: 53px;
+    width: 161px;
+    margin-right: 26px;
+}
+.app-store {
+    height: 53px;
+    width: 152px;
+}
+.app-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    letter-spacing: -0.03em;
+}
+.app-title span {
+    display: block;
+    text-transform: none;
+    color: #192b59;
+}
+.app-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7581a1;
+    max-width: 600px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+.app-video {
+    position: absolute;
+}
+.video-btn {
+    position: relative;
+    top: 50%;
+    background-color: #fff;
+    color: #a1aecf;
+    border-radius: 50%;
+    border: none;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    font-size: 1em;
+    left: calc( (510px - 80px) / 2);
+}
+.app-info {
+    margin-right: 120px;
+}
 
 
 
@@ -494,6 +625,10 @@ input:focus {
 .fa-foursquare:hover {
     color: #ff457a;
 }
+
+
+
+
 
 
 
