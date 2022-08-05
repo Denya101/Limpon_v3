@@ -247,13 +247,13 @@
     </div>
 
     <div class="block-plans">
-        <div>
-            <h2><span>Our plans</span>Pricing Plans</h2>
-            <div>
-                <div>
-                    <h3>Free</h3>
-                    <p><strong>Starter</strong></p>
-                    <ul>
+        <div class="wrap">
+            <h2 class="plans-title"><span>Our plans</span>Pricing Plans</h2>
+            <div class="plans-box">
+                <div class="plans-card">
+                    <h3 class="plans-card-title">Free</h3>
+                    <p class="plans-card-subTitle"><strong>Starter</strong></p>
+                    <ul class="plans-card-text">
                         <li>Unlimited users Active</li>
                         <li>1 GB Bandwidth Speed</li>
                         <li>256 MB Memory Card</li>
@@ -261,11 +261,12 @@
                         <li>Free Hosting Name</li>
                         <li>24x7 Online Support</li>
                     </ul>
-                    <a href="">Choose plan</a>
+                    <a href="" class="plans-btn">Choose plan</a>
                 </div>
-                <div>
-                    <h3><span>$</span>90<span>/mo</span></h3>
-                    <ul>
+                <div class="plans-card plans-card-active">
+                    <h3 class="plans-card-title"><span>$</span>90<span>/mo</span></h3>
+                    <p class="plans-card-subTitle plans-card-subTitle-active"><strong>Starter</strong></p>
+                    <ul class="plans-card-text">
                         <li>Unlimited users Active</li>
                         <li>1 GB Bandwidth Speed</li>
                         <li>256 MB Memory Card</li>
@@ -273,11 +274,12 @@
                         <li>Free Hosting Name</li>
                         <li>24x7 Online Support</li>
                     </ul>
-                    <a href="">Choose plan</a>
+                    <a href="" class="plans-btn plans-btn-active">Choose plan</a>
                 </div>
-                <div>
-                    <h3><span>$</span>350<span>/mo</span></h3>
-                    <ul>
+                <div class="plans-card">
+                    <h3 class="plans-card-title"><span>$</span>350<span>/mo</span></h3>
+                    <p class="plans-card-subTitle"><strong>Starter</strong></p>
+                    <ul class="plans-card-text">
                         <li>Unlimited users Active</li>
                         <li>1 GB Bandwidth Speed</li>
                         <li>256 MB Memory Card</li>
@@ -285,7 +287,7 @@
                         <li>Free Hosting Name</li>
                         <li>24x7 Online Support</li>
                     </ul>
-                    <a href="">Choose plan</a>
+                    <a href="" class="plans-btn">Choose plan</a>
                 </div>
             </div>
         </div>
@@ -333,14 +335,31 @@
     </div>
 
     <div class="block-form">
-        <h2>Start Your Free Trail No Need Credit Card.</h2>
-        <img src="" alt="">
-        <div>
-            <input type="text" placeholder="Enter your name here">
-            <input type="email" placeholder="Enter your email here">
-            <textarea name="text" placeholder="Enter your message here"></textarea>
+        <div class="wrap">
+            <div class="form-box">
+                <div class="form-img">
+                    <img src="/img/stat_year_2.png" alt="">
+                </div>
+                <div class="form-inner">
+                    <h2 class="form-title">Start Your Free Trail No Need Credit Card.</h2>
+                    <div>
+                        <div class="input-username">
+                            <input type="text" placeholder="Enter your name here" class="username">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="input-userMail">
+                            <input type="email" placeholder="Enter your email here" class="userMail">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="message-box">
+                            <textarea name="text" placeholder="Enter your message here" class="message-area"></textarea>
+                            <i class="fa-solid fa-pencil"></i>
+                        </div>
+                    </div>
+                <button type="submit" class="btn-blue submit-btn"><i class="fa-solid fa-paper-plane"></i>Submit now</button>
+                </div>
+            </div>
         </div>
-        <button type="submit">Submit now</button>
     </div>
 
     <footer class="footer">

@@ -106,6 +106,7 @@ h1 {
                          "e h h";
 gap: 20px;
 margin-top: 170px;
+margin-bottom: 54px;
 }
 .grid-title {
     grid-area: a;
@@ -360,6 +361,7 @@ input:focus {
     padding-top: 116px;
     padding-bottom: 106px;
     color: #fff;
+    margin-top: 0;
 }
 .team-title span {
     display: block;
@@ -698,9 +700,189 @@ hr {
 
 
 
+/******************* PLANS *******************/
+
+.block-plans {
+    height: 1079px;
+}
+.plans-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #192b59;
+    text-transform: none;
+    letter-spacing: -0.03em;
+    margin-bottom: 81px;
+    margin-top: 0;
+    padding-top: 166px;
+    text-align: center;
+}
+.plans-title span {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: #1085e4;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+.plans-box {
+    display: flex;
+    justify-content: space-around;
+}
+.plans-card {
+    height: 623px;
+    width: 350px;
+    background-image: url(/img/card_bg.png);
+    text-align: center;
+}
+.plans-card-active {
+    background-image: none;
+    background-color: #192b59;
+}
+.plans-card-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8085b1;
+    line-height: 2.9em;
+    padding: 0;
+    margin-bottom: 56px;
+}
+.plans-card-title {
+    font-size: 70px;
+    font-weight: 700;
+    color: #000958;
+    margin-bottom: 0;
+}
+.plans-card-subTitle {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0084ff;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    margin-bottom: 30px;
+}
+.plans-card-active .plans-card-title, .plans-card-active .plans-card-subTitle, .plans-card-active .plans-card-title span:first-child {
+    color: #fff;
+}
+.plans-card-active .plans-card-title span, .plans-card-title span {
+    font-size: 20px;
+    color: #7b8ab2;
+    text-transform: none;
+}
+.plans-card-title span:nth-child(1) {
+    color: #000958;
+}
 
 
 
+
+
+
+/******************* FORM *******************/
+
+
+.block-form {
+    background-image: url(/img/form_bg.png);
+    height: 840px;
+}
+.form-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+}
+.submit-btn {
+    letter-spacing: 0.2em;
+    padding: 23px 64px;
+    cursor: pointer;
+}
+.form-inner {
+    width: 530px;
+}
+.form-box {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-top: 83px;
+}
+.username {
+    display: block;
+    border: 2px solid #dce4ec;
+    border-radius: 50px;
+    height: 64px;
+    width: 470px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 38px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.userMail {
+    display: block;
+    border: 2px solid #dce4ec;
+    border-radius: 50px;
+    height: 64px;
+    width: 470px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 38px;
+    background-color: #fff;
+}
+.message-area {
+    display: block;
+    border: 2px solid #dce4ec;
+    border-radius: 35px;
+    height: 152px;
+    width: 470px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 38px;
+    resize: none;
+    background-color: #fff;
+}
+.message-area:focus {
+    outline: none;
+}
+.fa-user {
+    font-size: 14px;
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 56px;
+    color: #8995b3;
+}
+.fa-envelope {
+    font-size: 14px;
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 56px;
+    color: #8995b3;
+}
+.fa-pencil {
+    font-size: 14px;
+    position: absolute;
+    top: 29px;
+    right: 56px;
+    color: #8995b3;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color: #8995b3; 
+}
+textarea::-webkit-input-placeholder {
+    padding-top: 24px;
+}
+.input-username {
+    position: relative;
+    margin-bottom: 20px;
+}
+.input-userMail {
+    position: relative;
+    margin-bottom: 20px;
+}
+.message-box {
+    position: relative;
+    margin-bottom: 41px;
+}
+.fa-paper-plane {
+    margin-right: 9px;
+}
 
 
 
@@ -818,5 +1000,58 @@ hr {
     border: 1px solid #cbdbe8;
     transition: .2s;
 }
+
+
+
+
+
+
+.plans-btn {
+    font-size: 12px;
+    font-weight: 700;
+    color: #8085b1;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border: 2px solid #dce1e5;
+    border-radius: 50px;
+    padding: 20px 62px;
+
+
+}
+.plans-btn-active {
+    color: #fff;
+    background-color: #1a88e1;
+    border: 2px solid transparent;
+    padding: 20px 62px;
+}
+.plans-btn:hover {
+    color: #fff;
+    background-color: #1a88e1;
+    border: 2px solid #1a88e1;
+}
+.plans-btn-active:hover {
+    color: #8085b1;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
